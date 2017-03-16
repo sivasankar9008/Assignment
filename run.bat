@@ -1,0 +1,4 @@
+mvn exec:java
+
+
+pause

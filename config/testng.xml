@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><suite name="Suite" parallel="tests">
+  <test id="1" name="Nexus">
+    <parameter name="selenium.machinename" value="Nexus"/>
+    <parameter name="selenium.host" value="192.168.12.146"/>
+    <parameter name="selenium.port" value="1113"/>
+    <parameter name="selenium.App" value="HDFC"/>
+    <parameter id="1" name="selenium.os" value="Android"/>
+    <parameter id="1" name="selenium.osVersion" value="4.4"/>
+    <classes name="1">
+      <class id="1" name="TestCases.TestCases"/>
+      <methods id="1">
+         <include name="TC01"/>
+         <include name="TC02"/>
+      </methods>
+    </classes>
+  </test>
+</suite>
